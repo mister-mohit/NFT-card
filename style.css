@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body{
+    height: 100vh;
+    box-sizing:border-box;
+    background-color:hsla(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:hsla(216, 50%, 16%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.image-container{
+    margin: 20px;
+    height: 260px;
+    border-radius: 10px;
+}
+.image-container> img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    margin: 0 15px 0px 15px;;
+    height:190px;
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+
+.overall >h1{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color:hsla(0, 0%, 100%);
+    margin: 0;
+}
+
+.overall > p {
+    color: hsla(215, 51%, 70%);
+    font-family:'Outfit', sans-serif;
+}
+.points{
+    display:flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.points >span{
+    color:hsla(178, 100%, 50%);
+    margin-left: 14px;
+}
+.time{
+    margin-left: auto;
+    margin-right: 10px;
+    color:hsla(215, 51%, 70%);
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.profile>img{
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.profile> span{
+    margin-left: 15px;
+    font-size: 16px;
+    color:hsla(215, 51%, 70%);
+    font-family:'Outfit', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
